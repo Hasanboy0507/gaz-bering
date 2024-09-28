@@ -56,11 +56,11 @@ img {
 
 .blog {
   width: 100%;
-  margin-top: 5rem;
+  padding: 4rem 0;
 }
 .blog .blog__content .item {
   border: 3px solid rgb(2, 192, 2);
-  background-color: black;
+  background-color: rgb(22, 21, 21);
   border-radius: 10px;
   transition: all 0.4s linear;
 }
@@ -69,13 +69,14 @@ img {
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
 }
-.blog .blog__content .item:hover {
+.blog .item:hover {
   border: 6px solid blue;
 }
-.blog .blog__content .item h2 {
+.blog .item h2 {
   color: #fff;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   text-align: center;
+  padding: 1rem 0;
 }
 
 /* From Uiverse.io by jeremyssocial */
@@ -92,7 +93,7 @@ img {
     width: 6.2em;
   } /* adjust width based on content */
   90%, 100% {
-    width: 23%;
+    width: 60%;
   }
 }
 .gaz {
@@ -111,7 +112,7 @@ img {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 3rem;
-  height: 50vh;
+  height: 55vh;
   margin-top: 2rem;
 }
 
